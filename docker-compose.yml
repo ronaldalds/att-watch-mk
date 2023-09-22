@@ -4,7 +4,7 @@ services:
   watch:
     container_name: att-watch
     ports:
-      - 8002:8002
+      - 8003:8003
     build: .
     image: att-watch:0.1.0
     shm_size: 2g

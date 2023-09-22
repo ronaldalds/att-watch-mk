@@ -1,11 +1,11 @@
 version: '3.8'
 
 services:
-  cancelamento:
-    container_name: cancelamento
+  watch:
+    container_name: att-watch
     ports:
-      - 8010:8010
+      - 8002:8002
     build: .
-    image: cancelamento:0.0.15
+    image: att-watch:0.1.0
     shm_size: 2g
     tty: true
